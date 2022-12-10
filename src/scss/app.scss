@@ -14,54 +14,69 @@
 @import "base/mixins";
 
 body {
-  font-family: laca;
+    font-family: laca;
 }
 
 main {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 200px;
-  flex-flow: row;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px;
+    flex-flow: row;
 }
 
 @media screen and (max-width: 1200px) {
-  main {
-    padding: 200px;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    flex-flow: column;
-  }
+    main {
+        padding: 200px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        flex-flow: column;
+    }
 }
 
 button {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .white {
-  color: white;
+    color: white;
 }
 
 .box {
-  border-radius: 25px;
-  background-color: #796ad9;
-  color: #f2f2f2;
+    border-radius: 25px;
+    background-color: #796ad9;
+    color: #f2f2f2;
 }
 
 .value {
-  padding: 10px;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 .pricing {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .best-price {
-  text-transform: uppercase;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.title {
+    margin: 20px;
+}
+
+.paragraph {
+    padding-top: 20px;
+}
+
+.buttons {
+    padding: 10px 0 0 10px;
 }
